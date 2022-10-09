@@ -1,0 +1,26 @@
+.home_container{
+    width: 90%;
+    height: 400px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .home_container{
+        height: 600px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .home_container{
+        height: 800px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    }
+}
