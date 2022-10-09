@@ -1,0 +1,25 @@
+header{
+    background: rgb(30, 29, 29);
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+
+header .header_container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header .header_container .header__logo{
+    width: 20px;
+    height: 20px;
+    background: white;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+header .header_container h2{
+    font-size: 17px;
+    margin-left: 7px;
+}
