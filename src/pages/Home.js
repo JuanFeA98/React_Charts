@@ -15,7 +15,7 @@ export default function Home() {
         <div className="home_container">
           <LibraryCard 
             name='Victory Charts' 
-            enlace='/victory_charts'
+            // enlace='/victory_charts'
             background='#07072c' 
             color='white' 
             >
