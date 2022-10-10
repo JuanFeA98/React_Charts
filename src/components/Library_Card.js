@@ -1,14 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import '../styles/library_card.css'
 
 export default function Library_Card(props) {
 
   return (
-    <div className='Library_Card' style={{ background:props.color }}>
-        <p>
-          {props.name}
-        </p>
-    </div>
+    <Link to={ props.enlace } className='Library_Card' style={{ background:props.background }}>
+      <p style={{ color:props.color }}>
+        {props.name}
+      </p>
+    </Link>
   )
 }

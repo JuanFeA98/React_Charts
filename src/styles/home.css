@@ -1,7 +1,11 @@
+.home_main{
+    margin-top: 30px;
+}
+
 .home_container{
     width: 90%;
     height: 400px;
-    margin: 50px auto;
+    margin: 10px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
