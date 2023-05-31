@@ -5,15 +5,12 @@ import './styles.css'
 export default function Header() {
   return (
     <header>
-      <a href='/'>
-        <div className="header_container">
-          <div className="header__logo">
-          </div>
-          <h2>
-            Header
-          </h2>
-        </div>
-      </a>
+      <div className="header_title">
+        <h3>Header</h3>
+        <h5>Welcome to the website</h5>
+      </div>
+      <div className="header_nav">
+      </div>
     </header>
   )
 }
