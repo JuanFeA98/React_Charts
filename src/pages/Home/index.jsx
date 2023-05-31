@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import LibraryCard from '../components/Library_Card'
+import LibraryCard from '../../components/Library_Card'
 
-import '../styles/home.css'
+import './styles.css'
 
 export default function Home() {
   return (

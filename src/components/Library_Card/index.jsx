@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import '../styles/library_card.css'
+import './styles.css'
 
 export default function Library_Card(props) {
 

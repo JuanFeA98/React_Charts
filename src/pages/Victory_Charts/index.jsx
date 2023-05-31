@@ -1,7 +1,7 @@
 import React from 'react'
 import { VictoryBar, VictoryChart, VictoryAxis, VictoryTheme } from 'victory'
 
-import '../styles/victory_charts.css'
+import './styles.css'
 
 export default function VictoryCharts() {
   const data = [
